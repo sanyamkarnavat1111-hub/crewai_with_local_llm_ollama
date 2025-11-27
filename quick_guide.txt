@@ -1,0 +1,14 @@
+
+# Agent: A worker with a role (e.g., "Researcher"), goal (e.g., "Find reliable info"), backstory (for context), and an LLM (Ollama).
+# Task: A job description, expected output, and assigned agent. Tasks can delegate or use tools.
+# Crew: A team of agents + tasks. You choose a process (e.g., sequential: one after another).
+# Tools: Optional add-ons like web search. Agents decide when to use them.
+
+
+
+# While running the code
+- No need to do "ollama serve" this breaks the operation
+
+# TO solve the error of liteLLM
+    - Simply install litellm package
+
