@@ -15,7 +15,8 @@ class BlogPost(BaseModel):
 # === 2. Setup LLM ===
 llm = LLM(
     # model="ollama/llama3:8b",
-    model="ollama/gemma2:9b",
+    # model="ollama/gemma2:9b",
+    model="ollama/dolphin3", # Dolphin 3 is the instruct version of LLama 3 specifically designed to follow instruction , tool calling and agentic ai
     base_url="http://localhost:11434"
 )
 
