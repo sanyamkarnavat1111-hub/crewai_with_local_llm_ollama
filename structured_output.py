@@ -56,7 +56,7 @@ crew = Crew(
 )
 
 result = crew.kickoff(inputs={
-    "topic" : "Machine Learning"
+    "topic" : "HERA text summarization technique"
 })
 structured_output = result.pydantic  # Full Pydantic instance
 
